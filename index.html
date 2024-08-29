@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile">
+            <img id="profile-picture" src="pfp.png" alt="Profile Picture" class="pfp">
+            <p id="profile-name">Username</p>
+        </div>
+        
+        <!-- Currently Playing Section -->
+        <div class="currently-playing">
+            <p>Currently playing</p>
+            <div class="current-track">
+                <img id="album-cover" src="album_cover.png" alt="Album Cover" class="album-cover">
+                <div class="track-info">
+                    <p id="track-name">Song title</p>
+                    <p id="artist-name">Singer</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Open Spotify Profile Section -->
+        <div class="open-profile">
+            <button id="open-spotify-btn">Open Spotify</button>
+        </div>
+
+        <!-- User Playlists Section -->
+        <div class="playlists">
+            <div id="playlist1" class="playlist">User Playlist 1</div>
+            <div id="playlist2" class="playlist">User Playlist 2</div>
+            <div id="playlist3" class="playlist">User Playlist 3</div>
+            <div id="playlist4" class="playlist">User Playlist 4</div>
+        </div>
+
+        <!-- Top Artists Section -->
+        <div class="top-artists">
+            <h3>Top Artists</h3>
+            <div id="artist1" class="artist-circle">Artist 1</div>
+            <div id="artist2" class="artist-circle">Artist 2</div>
+            <div id="artist3" class="artist-circle">Artist 3</div>
+            <div id="artist4" class="artist-circle">Artist 4</div>
+            <div id="artist5" class="artist-circle">Artist 5</div>
+            <div id="artist6" class="artist-circle">Artist 6</div>
+            <div id="artist7" class="artist-circle">Artist 7</div>
+            <div id="artist8" class="artist-circle">Artist 8</div>
+            <div id="artist9" class="artist-circle">Artist 9</div>
+            <div id="artist10" class="artist-circle">Artist 10</div>
+            <div id="artist11" class="artist-circle">Artist 11</div>
+            <div id="artist12" class="artist-circle">Artist 12</div>
+        </div>
+
+        <!-- Top Songs Played This Month -->
+        <div class="top-tracks">
+            <h3>Top Songs Played This Month</h3>
+            <div class="track" id="top-track1">
+                <img src="album_cover.png" alt="Album Cover" class="small-album-cover">
+                <div class="track-info">
+                    <p>Song title</p>
+                    <p>Singer</p>
+                </div>
+            </div>
+            <!-- Repeat similar structure for more top tracks -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
